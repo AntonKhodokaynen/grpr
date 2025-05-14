@@ -1,0 +1,20 @@
+body {
+  background: linear-gradient(to bottom right, #e3f2fd, #f3e8ff);
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+  transition: background-color 0.3s ease;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.btn {
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}

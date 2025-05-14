@@ -1,0 +1,32 @@
+/* App.css */
+.App {
+    text-align: center;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5); /* Градиентный фон */
+    min-height: 100vh;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Стили для сетки карточек */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  /* Общие стили для кнопок */
+  .btn {
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
